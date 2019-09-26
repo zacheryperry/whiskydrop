@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Whiskey Drop | Taste a new whiskey every month</title>
+    <title>Coffee Drop | Taste a new coffee every month</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
@@ -13,38 +13,58 @@
 
 <body>
     <!--navigation bar-->
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">WhiskyDrop</a>
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="about.html">About Us</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/signup">Sign up</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign in</a></li>
-        </ul>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Dont drop the ball... WhiskyDrop!</i></p>
-            <a href="/signup">Sign up today!</a>
-            <a href="/login">Sign in</a>
-        </div>
-    </nav>
-    <<!--/navigation bar-->
-        <!-- Headline -->
-        <div class="container-fluid Headline-container">
-            <div class="container mt-3">
-                <div class="row">
-                    <div class="col-12">
-                        <section class="callout jumbotron text-center">
-                            <h1>Thank you for taking a look at my site!</h1>
-                            <p class="lead">*insert resume and link to github projects here*
-                                <br>
-                                <s class="d-none d-sm-block">$22.44</s>
-                                <span class="d-inline d-sm-none"><br></span>
-                                <p><strong><mark>First one is free!</mark></strong><br><small class="text-muted">*Just pay regular cost and shipping*</small></p>
-                                <button class="btn btn-success btn-lg"> other Github projects</button>
-
-                        </section>
-                    </div>
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <!-- Navbar brand -->
+            <a href="index.html" class="navbar-brand">CoffeeDrop</a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="d-sm-none nav-item">
+                        <a class="nav-link" href="signup.html">Sign Up Today!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+                <!-- /Links -->
+            </div>
+            <!-- /Collapsible content -->
+            <!-- Signup button & tagline -->
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Dont drip a drop. CoffeeDrop!</i></p>
+            </div>
+            <div class="d-none d-sm-block">
+                <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
+            </div>
+        </nav>
+    </div>
+    <!--/navigation bar-->
+    <!-- Headline -->
+    <div class="container-fluid Headline-container headline-fullpage">
+        <div class="opaque-overlay"> </div>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">Thank you for taking a look at my site!</h1>
+                        <button class="btn btn-success btn-lg">GitHub</button>
+                        <button class="btn btn-success btn-lg">Resume</button>
+                        <span class="d-inline d-sm-none"><br></span>
+                    </section>
                 </div>
             </div>
         </div>
-        <!-- /.Headline-->
+    </div>
+    <!-- /Headline-->
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

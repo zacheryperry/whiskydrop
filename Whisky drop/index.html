@@ -13,59 +13,74 @@
 
 <body>
     <!--navigation bar-->
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">CoffeeDrop</a>
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="about.html">About Us</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/signup">Sign up</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign in</a></li>
-        </ul>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Dont drop the ball... CoffeeDrop!</i></p>
-            <a href="/signup">Sign up today!</a>
-            <a href="/login">Sign in</a>
-        </div>
-    </nav>
-    <<!--/navigation bar-->
-        <!-- Headline -->
-        <div class="container-fluid Headline-container">
-            <div class="opaque-overlay">spaces</div>
-            <div class="container mt-3">
-                <div class="row">
-                    <div class="col-12">
-                        <section class="callout jumbotron text-center">
-                            <h1 class="jumbotron-header">The finest Coffees delivered to your doorstep.</h1>
-                            <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
-                                <br>
-                                <s class="d-none d-sm-block">$22.44</s>
-                                <span class="d-inline d-sm-none"><br></span>
-                                <p><strong><mark>First one is free!</mark></strong><br><small class="text-muted">*Just pay regular cost and shipping*</small></p>
-                                <button class="btn btn-success btn-lg">Sign up</button>
-                                <p class="text-muted"><small>You must be 26 years of age or older to sign up! Please drink responsibly!</small></p>
-                        </section>
-                    </div>
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <!-- Navbar brand -->
+            <a href="index.html" class="navbar-brand">CoffeeDrop</a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="d-sm-none nav-item">
+                        <a class="nav-link" href="signup.html">Sign Up Today!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+                <!-- /Links -->
+            </div>
+            <!-- /Collapsible content -->
+            <!-- Signup button & tagline -->
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Dont drip a drop. CoffeeDrop!</i></p>
+            </div>
+            <div class="d-none d-sm-block">
+                <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
+            </div>
+        </nav>
+    </div>
+    <!--/navigation bar-->
+    <!-- Headline -->
+    <div class="container-fluid Headline-container ">
+        <div class="opaque-overlay">spaces</div>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">The finest Coffees delivered to your doorstep.</h1>
+                        <hr class="block-divider block-divider--purple">
+                        <p class="lead">Sign up today and start receiving the world's best coffee every month.</p>
+                        <p class="d-none d-sm-block"><strong><mark>First one is free!</mark></strong><br><small class="text-muted">*Just pay regular cost and shipping*</small></p>
+                        <button class="btn btn-success btn-lg ">Sign up Today!</button>
+                    </section>
                 </div>
             </div>
         </div>
-        <!-- /.Headline-->
-        <!-- Quotes -->
-        <div class="container qotes-container">
+    </div>
+    <!-- /.Headline-->
+    <!-- Quotes -->
+    <div class="container-wrapper">
+        <div class="container qotes-container content-container">
             <section class="quotes">
                 <div class="quotes">
-                    <div class="col-12 my-5">
-                        <h2 class="text-uppercase">Quotes:</h2>
+                    <div class="col-12 page-header ">
+                        <h2 class="text-uppercase">See what others have to say!</h2>
+                        <hr class="block-divider block-divider--orange block-divider--orange">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="media">
                             <div class="d-none d-sm-block">
-                                <img src="images/face1.jpeg" alt="picture of a person" class="rounded-circle mr-3" height, width=100>
+                                <img src="images/face1.jpeg" alt="picture of a person" class="rounded-circle mr-3" height, width="100">
                             </div>
                             <div class="media-body">
                                 <blockquote class="blockquote">
-                                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                                    <p>I've been introduced to more than 10 great international coffees I never knew about.</p>
                                     <p>- Jannet Pasely</p>
                                 </blockquote>
                             </div>
@@ -74,7 +89,7 @@
                     <div class="col-12 col-md-6">
                         <div class="media">
                             <div class="d-none d-sm-block">
-                                <img src="images/face2.jpeg" alt="picture of a person" class="rounded-circle mr-3" height, width=100>
+                                <img src="images/face2.jpeg" alt="picture of a person" class="rounded-circle mr-3" height, width="100">
                             </div>
                             <div class="media-body">
                                 <blockquote class="blockquote">
@@ -87,47 +102,54 @@
                 </div>
             </section>
         </div>
-        <!-- /.quotes -->
-        <!-- Features -->
-        <div class="container features-container">
+    </div>
+    <!-- /.quotes -->
+    <!-- Features -->
+    <div class="container-wrapper--purp container-wrapper">
+        <div class="container features-container content-container">
             <section class="features">
                 <div class="row">
-                    <div class="col-12 my-5">
-                        <h2 class="text-uppercase">Features:</h2>
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Features</h2>
+                        <hr class="block-divider block-divider--grey">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
-                            <h3>Feature 1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h3> <i class="far fa-handshake d-none d-sm-block"></i>Fair Trade</h3>
+                            <p>ALL of our products are obtained through fair and sustainable methods.</p>
                             <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
-                            <h3>Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h3><i class="fas fa-shipping-fast d-none d-sm-block"> <i class="fas fa-store d-none d-sm-inline"></i></i> Convenience </h3>
+                            <p>With Hundreds of locations and super fast 2-day shipping, enjoying some fresh brew is always a breeze!</p>
                             <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
                         </div>
                     </div>
-                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="feature">
-                            <h3>Feature 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h3><i class="fas fa-coffee d-none d-sm-block"></i> Quality Guarantee</h3>
+                            <p>We guarantee the quality of all our products to be the best you have ever had. </p>
                             <p><a href="" class="btn btn-sm btn-light">Read More</a></p>
                         </div>
                     </div>
+
                 </div>
             </section>
         </div>
-        <!-- /.features -->
+    </div>
+    <!-- /.features -->
 
 </body>
 
 </html>
 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 
